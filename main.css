@@ -1,0 +1,217 @@
+html {
+    background-image: url(images/homeBackground.jpg);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: block;
+    width: auto;
+}
+
+nav {
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  text-align: center;
+  color: #BDB76B;
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+  font-family: Arial;
+  font-size: 1em;
+  margin: 0;
+  padding: 16px;
+  display: inline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: Arial;
+    background: -webkit-linear-gradient(#2d3436 0%, #d3d3d3 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin: 0;
+  padding-top: 24px;
+  color: #ccc;
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 a {
+  color: #ffd7cf;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+  font-size: 1.5em;
+}
+
+h3 a {
+  color: #ffd7cf;
+  font-size: 1.5rem;
+  margin-left: 64px;
+  text-decoration: underline;
+}
+
+h6 a {
+  font-size: 1.8em;
+  font-family: monospace;
+  font-weight: 100;
+  margin: 1em 0 0 2em;
+  padding: 8px;
+  color: #bbb;
+  text-shadow: none;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+}
+
+.login {
+  width: 40%;
+  margin: 0 30% 0;
+}
+
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: #000;
+}
+
+label {
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: white;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
+
+#main {
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.episodes {
+    display: block;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+
+.episodes:first-child {
+  margin-top: 5em;
+}
+
+a {
+    text-decoration: none;
+    color: #bbb;
+    font-family: Menlo;
+    font-size: 2em;
+}
+
+.one {
+  background-image: url("images/phantom.jpg");
+}
+
+.two {
+  background-image: url("images/attackOfClones.jpg");
+}
+
+.three {
+  background-image: url("images/sith.png");
+}
+
+.four {
+  background-image: url("images/aNewHope.jpg");
+}
+
+.five {
+  background-image: url("images/empireStrikesBack.jpg");
+}
+
+.six {
+  background-image: url("images/jedi.jpg");
+}
+
+.seven {
+  background-image: url("images/theForceAwakens.jpg");
+}
+
+.rogueOne {
+  background-image: url("images/rogueOne.jpg");
+}

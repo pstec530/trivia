@@ -1,0 +1,74 @@
+* {
+    background-image: url(images/homeBackground.jpg);
+    color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Impact;
+    background-image: linear-gradient(135deg, #fa691a 0%, #d72263 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: ‹values›;
+}
+
+h3 {
+    font-size: 1em;
+    font-family: helvetica;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 1em;
+    color: #ddd;
+}
+
+a:hover {
+    color: #888;
+}
+
+section {
+    margin: auto 5% auto 5%;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    border: 5px solid #aaa;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 1.5em;
+    font-family: chalkboard;
+}
+
+p:first-child {
+    margin-top: 5%;
+}
+
+p:last-child {
+    margin-bottom: 5%;
+}
+
+button {
+    color: #eee;
+    font-family: Arial;
+    font-size: 1em;
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: 0;
+}
+
+button:hover {
+    color: #ff414e;
+}
