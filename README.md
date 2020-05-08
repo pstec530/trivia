@@ -1,7 +1,7 @@
 # trivia
-star wars trivia app
+
+putting jQuery to use
 
 A simple Star Wars theme trivia app
 
 click on the questions to reveal the answers
-this is parth's edit
